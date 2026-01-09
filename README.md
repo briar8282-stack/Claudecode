@@ -17,9 +17,9 @@ A comprehensive ranking system for Auckland schools with a 10-point rating scale
 
 ## Live Demo
 
-The site is automatically deployed to GitHub Pages via GitHub Actions.
+Deploy to Vercel with one click!
 
-**URL:** `https://<username>.github.io/Claudecode/`
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/briar8282-stack/Claudecode)
 
 ## Local Development
 
@@ -34,31 +34,25 @@ npm run dev
 npm run build
 ```
 
-## Deployment to GitHub Pages
+## Deploy to Vercel (Recommended)
 
-### Setup Instructions
+### Method 1: One-Click Deploy (Easiest!)
 
-1. **Enable GitHub Pages in your repository:**
-   - Go to your GitHub repository
-   - Click on **Settings** → **Pages**
-   - Under **Source**, select **GitHub Actions**
+1. Click the "Deploy with Vercel" button above
+2. Sign in with your GitHub account
+3. Click "Deploy"
+4. Done! Your site will be live in 2 minutes
 
-2. **The site will automatically deploy when you push to the branch:**
-   - Branch: `claude/auckland-schools-ranking-qBGCD`
-   - GitHub Actions will build and deploy automatically
-   - Check the **Actions** tab to see deployment progress
+### Method 2: Import from GitHub
 
-3. **Access your site:**
-   - Once deployed, your site will be available at:
-   - `https://<your-github-username>.github.io/Claudecode/`
+1. Go to [vercel.com](https://vercel.com)
+2. Click "Add New" → "Project"
+3. Import your GitHub repository: `briar8282-stack/Claudecode`
+4. Click "Deploy"
 
-### Manual Deployment
+Your site URL will be: `https://claudecode-[random].vercel.app`
 
-If you want to trigger a manual deployment:
-
-1. Go to the **Actions** tab in your GitHub repository
-2. Select the **Deploy to GitHub Pages** workflow
-3. Click **Run workflow**
+You can customize the domain in Vercel settings!
 
 ## Technology Stack
 
