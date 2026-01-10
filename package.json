@@ -1,7 +1,8 @@
 {
   "name": "claudecode",
   "version": "1.0.0",
-  "description": "",
+  "description": "Auckland Schools Ranking System - A comprehensive 10-point rating system for Auckland schools",
+  "homepage": "https://briar8282-stack.github.io/Claudecode",
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
