@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/Claudecode',
+  // Only use basePath for GitHub Pages, not for Vercel
+  basePath: process.env.VERCEL ? '' : '/Claudecode',
   images: {
     unoptimized: true,
   },

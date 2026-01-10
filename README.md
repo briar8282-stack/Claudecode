@@ -15,22 +15,27 @@ A comprehensive ranking system for Auckland schools with a 10-point rating scale
 - 📈 Sort by rating, academic performance, or name
 - 📱 Responsive design
 
-## 🌐 Live Demo
+## 🌐 Live Demo & Deployment
 
-**GitHub Pages**: https://briar8282-stack.github.io/Claudecode/
+### 🚀 Deploy Now (Recommended)
 
-### Quick Deploy Options
+Deploy to Vercel with one click - the fastest way to get your site online!
 
-#### Option 1: GitHub Pages (Free & Easy)
-The site is configured for automatic deployment to GitHub Pages.
-
-**Enable it in one step:**
-1. Go to [Settings → Pages](https://github.com/briar8282-stack/Claudecode/settings/pages)
-2. Under "Source", select **GitHub Actions**
-3. Done! Your site will be live at the URL above in 2-3 minutes.
-
-#### Option 2: Vercel (Alternative)
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/briar8282-stack/Claudecode)
+
+**Why Vercel?**
+- ✅ One-click deployment (2 minutes to live!)
+- ✅ Automatic updates on every push
+- ✅ Global CDN for fast loading
+- ✅ Free HTTPS & custom domains
+- ✅ Zero configuration needed
+
+### Alternative: GitHub Pages
+
+The site also supports GitHub Pages deployment:
+1. Go to [Settings → Pages](https://github.com/briar8282-stack/Claudecode/settings/pages)
+2. Select **GitHub Actions** as source
+3. Site will be live at: https://briar8282-stack.github.io/Claudecode/
 
 ## Local Development
 
@@ -47,14 +52,15 @@ npm run build
 
 ## Deployment
 
-### GitHub Pages (Configured & Ready)
-- Automatic deployment on every push
-- Free hosting
-- Visit [Settings → Pages](https://github.com/briar8282-stack/Claudecode/settings/pages) to enable
+### Vercel (Recommended)
+- **One-click deploy**: Click the "Deploy with Vercel" button above
+- **From dashboard**: Import from GitHub at [vercel.com](https://vercel.com)
+- **Features**: Automatic deploys, global CDN, free HTTPS, custom domains
 
-### Vercel (Alternative)
-- Click the "Deploy with Vercel" button above for one-click deployment
-- Or import from GitHub at [vercel.com](https://vercel.com)
+### GitHub Pages (Alternative)
+- Automatic deployment on every push
+- Free hosting on GitHub's infrastructure
+- Visit [Settings → Pages](https://github.com/briar8282-stack/Claudecode/settings/pages) to enable
 
 ## Technology Stack
 
