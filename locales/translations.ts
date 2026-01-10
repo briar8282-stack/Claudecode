@@ -1,0 +1,83 @@
+export const en = {
+  title: "Auckland Schools Ranking",
+  subtitle: "Comprehensive 10-point rating system for Auckland schools",
+  search: "Search",
+  searchPlaceholder: "School name or area...",
+  schoolType: "School Type",
+  allTypes: "All Types",
+  decile: "Decile",
+  allDeciles: "All Deciles",
+  sortBy: "Sort By",
+  overallRating: "Overall Rating",
+  academicPerformance: "Academic Performance",
+  schoolName: "School Name",
+  showing: "Showing",
+  of: "of",
+  schools: "schools",
+  facilities: "Facilities",
+  extracurricular: "Extracurricular",
+  teachingQuality: "Teaching Quality",
+  visitWebsite: "Visit Website",
+  noResults: "No schools found matching your criteria.",
+  clearFilters: "Clear Filters",
+  footer: "Auckland Schools Ranking © 2024. Ratings are indicative and based on multiple factors including academic performance, facilities, extracurricular activities, and teaching quality.",
+  excellent: "Excellent",
+  veryGood: "Very Good",
+  good: "Good",
+  average: "Average",
+  tuitionFees: "Tuition Fees",
+  free: "Free (Public School)",
+  perYear: "per year",
+  admissionRules: "Admission Rules",
+  tips: "Tips",
+  schoolTypes: {
+    Primary: "Primary",
+    Secondary: "Secondary",
+    Intermediate: "Intermediate",
+    Composite: "Composite"
+  }
+}
+
+export const zh = {
+  title: "奥克兰学校排名",
+  subtitle: "奥克兰学校综合10分制评分系统",
+  search: "搜索",
+  searchPlaceholder: "学校名称或地区...",
+  schoolType: "学校类型",
+  allTypes: "所有类型",
+  decile: "Decile等级",
+  allDeciles: "所有等级",
+  sortBy: "排序方式",
+  overallRating: "综合评分",
+  academicPerformance: "学术表现",
+  schoolName: "学校名称",
+  showing: "显示",
+  of: "共",
+  schools: "所学校",
+  facilities: "设施",
+  extracurricular: "课外活动",
+  teachingQuality: "教学质量",
+  visitWebsite: "访问网站",
+  noResults: "没有找到符合条件的学校。",
+  clearFilters: "清除筛选",
+  footer: "奥克兰学校排名 © 2024. 评分仅供参考，综合考虑学术表现、设施、课外活动和教学质量等多个因素。",
+  excellent: "优秀",
+  veryGood: "很好",
+  good: "良好",
+  average: "一般",
+  tuitionFees: "学费",
+  free: "免费（公立学校）",
+  perYear: "每年",
+  admissionRules: "入学规则",
+  tips: "温馨提示",
+  schoolTypes: {
+    Primary: "小学",
+    Secondary: "中学",
+    Intermediate: "初中",
+    Composite: "综合学校"
+  }
+}
+
+export type Locale = 'en' | 'zh'
+
+export const translations = { en, zh }
