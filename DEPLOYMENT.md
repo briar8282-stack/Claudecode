@@ -6,7 +6,26 @@
 
 🔗 **GitHub 仓库**: https://github.com/briar8282-stack/Claudecode
 
-## 🚀 如何部署到 Vercel（推荐，最简单）
+## 🌐 GitHub Pages 部署（免费，直接打开使用）
+
+### 一次性设置步骤：
+
+1. 打开您的 GitHub 仓库：https://github.com/briar8282-stack/Claudecode
+2. 点击顶部的 **Settings**（设置）
+3. 在左侧菜单找到 **Pages**
+4. 在 **Source** 下拉菜单中选择 **GitHub Actions**
+5. 完成！GitHub 会自动开始部署
+
+### 访问网站：
+
+部署完成后（约 2-3 分钟），您的网站将在这里：
+- **网址**: `https://briar8282-stack.github.io/Claudecode/`
+
+每次推送新代码，网站都会自动更新！
+
+---
+
+## 🚀 Vercel 部署（备选方案）
 
 ### 方法 1：一键部署
 
