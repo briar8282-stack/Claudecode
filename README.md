@@ -15,10 +15,21 @@ A comprehensive ranking system for Auckland schools with a 10-point rating scale
 - 📈 Sort by rating, academic performance, or name
 - 📱 Responsive design
 
-## Live Demo
+## 🌐 Live Demo
 
-Deploy to Vercel with one click!
+**GitHub Pages**: https://briar8282-stack.github.io/Claudecode/
 
+### Quick Deploy Options
+
+#### Option 1: GitHub Pages (Free & Easy)
+The site is configured for automatic deployment to GitHub Pages.
+
+**Enable it in one step:**
+1. Go to [Settings → Pages](https://github.com/briar8282-stack/Claudecode/settings/pages)
+2. Under "Source", select **GitHub Actions**
+3. Done! Your site will be live at the URL above in 2-3 minutes.
+
+#### Option 2: Vercel (Alternative)
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/briar8282-stack/Claudecode)
 
 ## Local Development
@@ -34,25 +45,16 @@ npm run dev
 npm run build
 ```
 
-## Deploy to Vercel (Recommended)
+## Deployment
 
-### Method 1: One-Click Deploy (Easiest!)
+### GitHub Pages (Configured & Ready)
+- Automatic deployment on every push
+- Free hosting
+- Visit [Settings → Pages](https://github.com/briar8282-stack/Claudecode/settings/pages) to enable
 
-1. Click the "Deploy with Vercel" button above
-2. Sign in with your GitHub account
-3. Click "Deploy"
-4. Done! Your site will be live in 2 minutes
-
-### Method 2: Import from GitHub
-
-1. Go to [vercel.com](https://vercel.com)
-2. Click "Add New" → "Project"
-3. Import your GitHub repository: `briar8282-stack/Claudecode`
-4. Click "Deploy"
-
-Your site URL will be: `https://claudecode-[random].vercel.app`
-
-You can customize the domain in Vercel settings!
+### Vercel (Alternative)
+- Click the "Deploy with Vercel" button above for one-click deployment
+- Or import from GitHub at [vercel.com](https://vercel.com)
 
 ## Technology Stack
 
