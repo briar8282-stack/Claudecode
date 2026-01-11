@@ -55,7 +55,7 @@ export const aucklandSchools: School[] = [
     ],
     admissionRulesCn: [
       "仅限男生",
-      "Year 9-13（中学5年）",
+      "Year 9-13（高中9-13年级）",
       "需要在学区内或通过入学考试",
       "学区外可通过抽签方式入学"
     ],
@@ -112,7 +112,7 @@ export const aucklandSchools: School[] = [
     ],
     admissionRulesCn: [
       "仅限女生",
-      "Year 7-13（7年制）",
+      "Year 7-13（7-13年级）",
       "需要入学评估",
       "提供有限奖学金"
     ],
@@ -170,7 +170,7 @@ export const aucklandSchools: School[] = [
     ],
     admissionRulesCn: [
       "男女混校",
-      "Year 9-13（中学5年）",
+      "Year 9-13（高中9-13年级）",
       "学区内优先入学",
       "严格的学区边界"
     ],
@@ -454,13 +454,13 @@ export const aucklandSchools: School[] = [
     tuitionFeeCn: "每年 $28,000 - $42,000 纽币",
     admissionRules: [
       "Co-educational",
-      "Year 1-13（全学段）",
+      "Year 1-13（1-13年级）",
       "Entrance assessment",
       "Interview required"
     ],
     admissionRulesCn: [
       "男女混校",
-      "Year 1-13（全学段）",
+      "Year 1-13（1-13年级）",
       "入学评估",
       "需要面试"
     ],
@@ -512,13 +512,13 @@ export const aucklandSchools: School[] = [
     tuitionFeeCn: "每年 $26,000 - $38,000 纽币",
     admissionRules: [
       "Co-educational",
-      "Year 1-13（全学段）",
+      "Year 1-13（1-13年级）",
       "Assessment and interview",
       "Sibling priority"
     ],
     admissionRulesCn: [
       "男女混校",
-      "Year 1-13（全学段）",
+      "Year 1-13（1-13年级）",
       "评估和面试",
       "兄弟姐妹优先"
     ],
@@ -570,13 +570,13 @@ export const aucklandSchools: School[] = [
     tuitionFeeCn: "每年 $24,000 - $36,000 纽币",
     admissionRules: [
       "Co-educational",
-      "Year 1-13（全学段）",
+      "Year 1-13（1-13年级）",
       "Entrance assessment",
       "Christian foundation"
     ],
     admissionRulesCn: [
       "男女混校",
-      "Year 1-13（全学段）",
+      "Year 1-13（1-13年级）",
       "入学评估",
       "基督教背景"
     ],
@@ -628,13 +628,13 @@ export const aucklandSchools: School[] = [
     tuitionFeeCn: "免费（公立学校）",
     admissionRules: [
       "Co-educational",
-      "Year 1-6（小学6年）",
+      "Year 1-6（小学1-6年级）",
       "In-zone priority",
       "Very limited out-of-zone spaces"
     ],
     admissionRulesCn: [
       "男女混校",
-      "Year 1-6（小学6年）",
+      "Year 1-6（小学1-6年级）",
       "学区内优先",
       "学区外名额极少"
     ],
@@ -686,13 +686,13 @@ export const aucklandSchools: School[] = [
     tuitionFeeCn: "免费（公立学校）",
     admissionRules: [
       "Co-educational",
-      "Year 1-6（小学6年）",
+      "Year 1-6（小学1-6年级）",
       "In-zone enrollment",
       "Strict zone boundaries"
     ],
     admissionRulesCn: [
       "男女混校",
-      "Year 1-6（小学6年）",
+      "Year 1-6（小学1-6年级）",
       "学区内入学",
       "严格的学区边界"
     ],
@@ -976,13 +976,13 @@ export const aucklandSchools: School[] = [
     tuitionFeeCn: "每年 $30,000 - $40,000 纽币",
     admissionRules: [
       "Girls only",
-      "Year 1-13（全学段）",
+      "Year 1-13（1-13年级）",
       "Entrance assessment",
       "Interview for senior years"
     ],
     admissionRulesCn: [
       "仅限女生",
-      "Year 1-13（全学段）",
+      "Year 1-13（1-13年级）",
       "入学评估",
       "高年级需面试"
     ],
@@ -1266,13 +1266,13 @@ export const aucklandSchools: School[] = [
     tuitionFeeCn: "每年 $35,000 - $45,000 纽币",
     admissionRules: [
       "Co-educational",
-      "Year 11-13 (IB only)",
+      "Year 11-13（高中11-13年级） (IB only)",
       "Academic assessment required",
       "International students welcome"
     ],
     admissionRulesCn: [
       "男女混校",
-      "Year 11-13（仅IB）",
+      "Year 11-13（高中11-13年级）（仅IB）",
       "需要学术评估",
       "欢迎国际学生"
     ],
@@ -1440,13 +1440,13 @@ export const aucklandSchools: School[] = [
     tuitionFeeCn: "免费（公立学校）",
     admissionRules: [
       "Co-educational",
-      "Year 7-10（初中4年）",
+      "Year 7-10（7-10年级）",
       "In-zone priority",
       "New school - growing enrollment"
     ],
     admissionRulesCn: [
       "男女混校",
-      "Year 7-10（初中4年）",
+      "Year 7-10（7-10年级）",
       "学区内优先",
       "新学校 - 招生增长中"
     ],
