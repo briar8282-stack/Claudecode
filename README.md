@@ -60,7 +60,7 @@ You can customize the domain in Vercel settings!
 - **UI Library:** React 19
 - **Language:** TypeScript
 - **Styling:** Tailwind CSS v4
-- **Deployment:** GitHub Pages with GitHub Actions
+- **Deployment:** Vercel
 
 ## Project Structure
 
