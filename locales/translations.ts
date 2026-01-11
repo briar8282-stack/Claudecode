@@ -33,6 +33,11 @@ export const en = {
   internationalStudents: "International Students",
   internationalFees: "International Student Fees",
   domesticFees: "Domestic Fees",
+  darkMode: "Dark Mode",
+  lightMode: "Light Mode",
+  compareSchools: "Compare Schools",
+  viewChart: "View Chart",
+  viewDetails: "View Details",
   schoolTypes: {
     Primary: "Primary",
     Secondary: "Secondary",
@@ -76,6 +81,11 @@ export const zh = {
   internationalStudents: "国际学生",
   internationalFees: "国际生学费",
   domesticFees: "本地生学费",
+  darkMode: "深色模式",
+  lightMode: "浅色模式",
+  compareSchools: "对比学校",
+  viewChart: "查看图表",
+  viewDetails: "查看详情",
   schoolTypes: {
     Primary: "小学",
     Secondary: "中学",
