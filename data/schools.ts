@@ -14,12 +14,16 @@ export interface School {
   website?: string;
   description: string;
   descriptionCn: string; // Chinese description
-  tuitionFee: string; // e.g., "Free", "$25,000 - $35,000"
+  tuitionFee: string; // Domestic fees
   tuitionFeeCn: string; // Chinese version
+  internationalFee: string; // International student fees
+  internationalFeeCn: string; // Chinese version
   admissionRules: string[];
   admissionRulesCn: string[];
   tips: string[];
   tipsCn: string[];
+  internationalTips: string[]; // Tips for international students
+  internationalTipsCn: string[]; // Chinese version
 }
 
 export const aucklandSchools: School[] = [
@@ -39,8 +43,10 @@ export const aucklandSchools: School[] = [
     website: "https://www.ags.school.nz",
     description: "One of Auckland's premier boys' secondary schools with outstanding academic results and extensive facilities.",
     descriptionCn: "奥克兰顶尖的男子中学之一，学术成绩优异，设施齐全。",
-    tuitionFee: "Free (State School)",
-    tuitionFeeCn: "免费（公立学校）",
+    tuitionFee: "Free (Domestic Students)",
+    tuitionFeeCn: "免费（本地学生）",
+    internationalFee: "$16,000 - $18,000 per year",
+    internationalFeeCn: "每年 $16,000 - $18,000 纽币",
     admissionRules: [
       "Boys only",
       "Year 9-13",
@@ -64,6 +70,20 @@ export const aucklandSchools: School[] = [
       "橄榄球和赛艇项目强",
       "学区外入学需提前申请",
       "NCEA和剑桥成绩优异"
+    ],
+    internationalTips: [
+      "Student visa required",
+      "English language test required (IELTS 5.5+)",
+      "Limited international student places",
+      "Excellent academic support for international students",
+      "Strong international student community"
+    ],
+    internationalTipsCn: [
+      "需要学生签证",
+      "需要英语考试（雅思5.5+）",
+      "国际生名额有限",
+      "为国际生提供优质学术支持",
+      "国际生社区活跃"
     ]
   },
   {
@@ -108,6 +128,21 @@ export const aucklandSchools: School[] = [
       "需提前1-2年申请",
       "圣公会背景但包容多元文化"
     ]
+,
+    internationalFee: "Same as domestic fees",
+    internationalFeeCn: "与本地生学费相同",
+    internationalTips: [
+      "Student visa required",
+      "English proficiency test required",
+      "Interview and assessment needed",
+      "Apply 1-2 years in advance"
+    ],
+    internationalTipsCn: [
+      "需要学生签证",
+      "需要英语水平测试",
+      "需要面试和评估",
+      "提前1-2年申请"
+    ]
   },
   {
     id: 3,
@@ -150,6 +185,21 @@ export const aucklandSchools: School[] = [
       "亚裔学生社区活跃",
       "NCEA成绩优秀",
       "请仔细查看学区边界"
+    ]
+,
+    internationalFee: "$16,000 - $18,000 per year",
+    internationalFeeCn: "每年 $16,000 - $18,000 纽币",
+    internationalTips: [
+      "Student visa required",
+      "English language test required (IELTS 5.0+)",
+      "Limited ESOL support available",
+      "Apply at least 6 months in advance"
+    ],
+    internationalTipsCn: [
+      "需要学生签证",
+      "需要英语考试（雅思5.0+）",
+      "提供有限的英语辅导",
+      "至少提前6个月申请"
     ]
   },
   {
@@ -194,6 +244,21 @@ export const aucklandSchools: School[] = [
       "非常受欢迎 - 学区严格",
       "大学升学率高"
     ]
+,
+    internationalFee: "$16,000 - $18,000 per year",
+    internationalFeeCn: "每年 $16,000 - $18,000 纽币",
+    internationalTips: [
+      "Student visa required",
+      "English language test required (IELTS 5.0+)",
+      "Limited ESOL support available",
+      "Apply at least 6 months in advance"
+    ],
+    internationalTipsCn: [
+      "需要学生签证",
+      "需要英语考试（雅思5.0+）",
+      "提供有限的英语辅导",
+      "至少提前6个月申请"
+    ]
   },
   {
     id: 5,
@@ -236,6 +301,21 @@ export const aucklandSchools: School[] = [
       "学术成绩优异",
       "支持性环境",
       "提前查看学区"
+    ]
+,
+    internationalFee: "$16,000 - $18,000 per year",
+    internationalFeeCn: "每年 $16,000 - $18,000 纽币",
+    internationalTips: [
+      "Student visa required",
+      "English language test required (IELTS 5.0+)",
+      "Limited ESOL support available",
+      "Apply at least 6 months in advance"
+    ],
+    internationalTipsCn: [
+      "需要学生签证",
+      "需要英语考试（雅思5.0+）",
+      "提供有限的英语辅导",
+      "至少提前6个月申请"
     ]
   },
   {
@@ -280,6 +360,21 @@ export const aucklandSchools: School[] = [
       "优秀的体育设施",
       "部分学生可能觉得规模太大"
     ]
+,
+    internationalFee: "$16,000 - $18,000 per year",
+    internationalFeeCn: "每年 $16,000 - $18,000 纽币",
+    internationalTips: [
+      "Student visa required",
+      "English language test required (IELTS 5.0+)",
+      "Limited ESOL support available",
+      "Apply at least 6 months in advance"
+    ],
+    internationalTipsCn: [
+      "需要学生签证",
+      "需要英语考试（雅思5.0+）",
+      "提供有限的英语辅导",
+      "至少提前6个月申请"
+    ]
   },
   {
     id: 7,
@@ -322,6 +417,21 @@ export const aucklandSchools: School[] = [
       "学术成绩良好",
       "家长社区活跃",
       "地理位置中心"
+    ]
+,
+    internationalFee: "$16,000 - $18,000 per year",
+    internationalFeeCn: "每年 $16,000 - $18,000 纽币",
+    internationalTips: [
+      "Student visa required",
+      "English language test required (IELTS 5.0+)",
+      "Limited ESOL support available",
+      "Apply at least 6 months in advance"
+    ],
+    internationalTipsCn: [
+      "需要学生签证",
+      "需要英语考试（雅思5.0+）",
+      "提供有限的英语辅导",
+      "至少提前6个月申请"
     ]
   },
   {
@@ -366,6 +476,21 @@ export const aucklandSchools: School[] = [
       "现代化校园",
       "学费较高但有奖学金"
     ]
+,
+    internationalFee: "Same as domestic fees",
+    internationalFeeCn: "与本地生学费相同",
+    internationalTips: [
+      "Student visa required",
+      "English proficiency test required",
+      "Interview and assessment needed",
+      "Apply 1-2 years in advance"
+    ],
+    internationalTipsCn: [
+      "需要学生签证",
+      "需要英语水平测试",
+      "需要面试和评估",
+      "提前1-2年申请"
+    ]
   },
   {
     id: 9,
@@ -408,6 +533,21 @@ export const aucklandSchools: School[] = [
       "优秀的体育设施",
       "大型校园，有泳池和球场",
       "音乐项目强大"
+    ]
+,
+    internationalFee: "Same as domestic fees",
+    internationalFeeCn: "与本地生学费相同",
+    internationalTips: [
+      "Student visa required",
+      "English proficiency test required",
+      "Interview and assessment needed",
+      "Apply 1-2 years in advance"
+    ],
+    internationalTipsCn: [
+      "需要学生签证",
+      "需要英语水平测试",
+      "需要面试和评估",
+      "提前1-2年申请"
     ]
   },
   {
@@ -452,6 +592,21 @@ export const aucklandSchools: School[] = [
       "学术成绩良好",
       "家长参与度高"
     ]
+,
+    internationalFee: "Same as domestic fees",
+    internationalFeeCn: "与本地生学费相同",
+    internationalTips: [
+      "Student visa required",
+      "English proficiency test required",
+      "Interview and assessment needed",
+      "Apply 1-2 years in advance"
+    ],
+    internationalTipsCn: [
+      "需要学生签证",
+      "需要英语水平测试",
+      "需要面试和评估",
+      "提前1-2年申请"
+    ]
   },
   {
     id: 11,
@@ -494,6 +649,21 @@ export const aucklandSchools: School[] = [
       "艺术重点强",
       "社区多元化",
       "地理位置中心"
+    ]
+,
+    internationalFee: "$13,000 - $15,000 per year",
+    internationalFeeCn: "每年 $13,000 - $15,000 纽币",
+    internationalTips: [
+      "Student visa required",
+      "English language test required (IELTS 5.0+)",
+      "Limited ESOL support available",
+      "Apply at least 6 months in advance"
+    ],
+    internationalTipsCn: [
+      "需要学生签证",
+      "需要英语考试（雅思5.0+）",
+      "提供有限的英语辅导",
+      "至少提前6个月申请"
     ]
   },
   {
@@ -538,6 +708,21 @@ export const aucklandSchools: School[] = [
       "家长社区强大",
       "学区内房产昂贵"
     ]
+,
+    internationalFee: "$13,000 - $15,000 per year",
+    internationalFeeCn: "每年 $13,000 - $15,000 纽币",
+    internationalTips: [
+      "Student visa required",
+      "English language test required (IELTS 5.0+)",
+      "Limited ESOL support available",
+      "Apply at least 6 months in advance"
+    ],
+    internationalTipsCn: [
+      "需要学生签证",
+      "需要英语考试（雅思5.0+）",
+      "提供有限的英语辅导",
+      "至少提前6个月申请"
+    ]
   },
   {
     id: 13,
@@ -580,6 +765,21 @@ export const aucklandSchools: School[] = [
       "大型多元化学校",
       "良好的学术选择",
       "中央奥克兰地理位置"
+    ]
+,
+    internationalFee: "$16,000 - $18,000 per year",
+    internationalFeeCn: "每年 $16,000 - $18,000 纽币",
+    internationalTips: [
+      "Student visa required",
+      "English language test required (IELTS 5.0+)",
+      "Limited ESOL support available",
+      "Apply at least 6 months in advance"
+    ],
+    internationalTipsCn: [
+      "需要学生签证",
+      "需要英语考试（雅思5.0+）",
+      "提供有限的英语辅导",
+      "至少提前6个月申请"
     ]
   },
   {
@@ -624,6 +824,21 @@ export const aucklandSchools: School[] = [
       "学术成绩好",
       "学费比私立学校低"
     ]
+,
+    internationalFee: "Same as domestic fees",
+    internationalFeeCn: "与本地生学费相同",
+    internationalTips: [
+      "Student visa required",
+      "English proficiency test required",
+      "Interview and assessment needed",
+      "Apply 1-2 years in advance"
+    ],
+    internationalTipsCn: [
+      "需要学生签证",
+      "需要英语水平测试",
+      "需要面试和评估",
+      "提前1-2年申请"
+    ]
   },
   {
     id: 15,
@@ -666,6 +881,21 @@ export const aucklandSchools: School[] = [
       "海滨社区氛围",
       "学术项目稳健",
       "体育设施良好"
+    ]
+,
+    internationalFee: "$16,000 - $18,000 per year",
+    internationalFeeCn: "每年 $16,000 - $18,000 纽币",
+    internationalTips: [
+      "Student visa required",
+      "English language test required (IELTS 5.0+)",
+      "Limited ESOL support available",
+      "Apply at least 6 months in advance"
+    ],
+    internationalTipsCn: [
+      "需要学生签证",
+      "需要英语考试（雅思5.0+）",
+      "提供有限的英语辅导",
+      "至少提前6个月申请"
     ]
   },
   {
@@ -710,6 +940,21 @@ export const aucklandSchools: School[] = [
       "橄榄球传统强",
       "寄宿需提前申请"
     ]
+,
+    internationalFee: "Same as domestic fees",
+    internationalFeeCn: "与本地生学费相同",
+    internationalTips: [
+      "Student visa required",
+      "English proficiency test required",
+      "Interview and assessment needed",
+      "Apply 1-2 years in advance"
+    ],
+    internationalTipsCn: [
+      "需要学生签证",
+      "需要英语水平测试",
+      "需要面试和评估",
+      "提前1-2年申请"
+    ]
   },
   {
     id: 17,
@@ -751,6 +996,21 @@ export const aucklandSchools: School[] = [
       "IB世界学校",
       "表演艺术强",
       "设施优秀",
+      "提前1-2年申请"
+    ]
+,
+    internationalFee: "Same as domestic fees",
+    internationalFeeCn: "与本地生学费相同",
+    internationalTips: [
+      "Student visa required",
+      "English proficiency test required",
+      "Interview and assessment needed",
+      "Apply 1-2 years in advance"
+    ],
+    internationalTipsCn: [
+      "需要学生签证",
+      "需要英语水平测试",
+      "需要面试和评估",
       "提前1-2年申请"
     ]
   },
@@ -796,6 +1056,21 @@ export const aucklandSchools: School[] = [
       "学术成绩稳健",
       "东区地理位置"
     ]
+,
+    internationalFee: "$16,000 - $18,000 per year",
+    internationalFeeCn: "每年 $16,000 - $18,000 纽币",
+    internationalTips: [
+      "Student visa required",
+      "English language test required (IELTS 5.0+)",
+      "Limited ESOL support available",
+      "Apply at least 6 months in advance"
+    ],
+    internationalTipsCn: [
+      "需要学生签证",
+      "需要英语考试（雅思5.0+）",
+      "提供有限的英语辅导",
+      "至少提前6个月申请"
+    ]
   },
   {
     id: 19,
@@ -838,6 +1113,21 @@ export const aucklandSchools: School[] = [
       "学术成绩好",
       "支持性环境",
       "学费比私校低"
+    ]
+,
+    internationalFee: "Same as domestic fees",
+    internationalFeeCn: "与本地生学费相同",
+    internationalTips: [
+      "Student visa required",
+      "English proficiency test required",
+      "Interview and assessment needed",
+      "Apply 1-2 years in advance"
+    ],
+    internationalTipsCn: [
+      "需要学生签证",
+      "需要英语水平测试",
+      "需要面试和评估",
+      "提前1-2年申请"
     ]
   },
   {
@@ -882,6 +1172,21 @@ export const aucklandSchools: School[] = [
       "户外教育好",
       "发展中地区"
     ]
+,
+    internationalFee: "$16,000 - $18,000 per year",
+    internationalFeeCn: "每年 $16,000 - $18,000 纽币",
+    internationalTips: [
+      "Student visa required",
+      "English language test required (IELTS 5.0+)",
+      "Limited ESOL support available",
+      "Apply at least 6 months in advance"
+    ],
+    internationalTipsCn: [
+      "需要学生签证",
+      "需要英语考试（雅思5.0+）",
+      "提供有限的英语辅导",
+      "至少提前6个月申请"
+    ]
   },
   {
     id: 21,
@@ -924,6 +1229,21 @@ export const aucklandSchools: School[] = [
       "国际学生多",
       "科目选择广",
       "适合多元文化体验"
+    ]
+,
+    internationalFee: "$16,000 - $18,000 per year",
+    internationalFeeCn: "每年 $16,000 - $18,000 纽币",
+    internationalTips: [
+      "Student visa required",
+      "English language test required (IELTS 5.0+)",
+      "Limited ESOL support available",
+      "Apply at least 6 months in advance"
+    ],
+    internationalTipsCn: [
+      "需要学生签证",
+      "需要英语考试（雅思5.0+）",
+      "提供有限的英语辅导",
+      "至少提前6个月申请"
     ]
   },
   {
@@ -968,6 +1288,21 @@ export const aucklandSchools: School[] = [
       "国际学生多",
       "学术强度大"
     ]
+,
+    internationalFee: "Same as domestic fees",
+    internationalFeeCn: "与本地生学费相同",
+    internationalTips: [
+      "Student visa required",
+      "English proficiency test required",
+      "Interview and assessment needed",
+      "Apply 1-2 years in advance"
+    ],
+    internationalTipsCn: [
+      "需要学生签证",
+      "需要英语水平测试",
+      "需要面试和评估",
+      "提前1-2年申请"
+    ]
   },
   {
     id: 23,
@@ -1010,6 +1345,21 @@ export const aucklandSchools: School[] = [
       "适合多元学习者",
       "西奥克兰地理位置",
       "注重个体成功"
+    ]
+,
+    internationalFee: "$16,000 - $18,000 per year",
+    internationalFeeCn: "每年 $16,000 - $18,000 纽币",
+    internationalTips: [
+      "Student visa required",
+      "English language test required (IELTS 5.0+)",
+      "Limited ESOL support available",
+      "Apply at least 6 months in advance"
+    ],
+    internationalTipsCn: [
+      "需要学生签证",
+      "需要英语考试（雅思5.0+）",
+      "提供有限的英语辅导",
+      "至少提前6个月申请"
     ]
   },
   {
@@ -1054,6 +1404,21 @@ export const aucklandSchools: School[] = [
       "注重社区",
       "中西部地理位置"
     ]
+,
+    internationalFee: "$16,000 - $18,000 per year",
+    internationalFeeCn: "每年 $16,000 - $18,000 纽币",
+    internationalTips: [
+      "Student visa required",
+      "English language test required (IELTS 5.0+)",
+      "Limited ESOL support available",
+      "Apply at least 6 months in advance"
+    ],
+    internationalTipsCn: [
+      "需要学生签证",
+      "需要英语考试（雅思5.0+）",
+      "提供有限的英语辅导",
+      "至少提前6个月申请"
+    ]
   },
   {
     id: 25,
@@ -1096,6 +1461,20 @@ export const aucklandSchools: School[] = [
       "注重科技",
       "发展中社区",
       "南奥克兰地理位置"
+    ],
+    internationalFee: "$14,000 - $16,000 per year",
+    internationalFeeCn: "每年 $14,000 - $16,000 纽币",
+    internationalTips: [
+      "Student visa required",
+      "English language test required (IELTS 5.0+)",
+      "Limited ESOL support available",
+      "Apply at least 6 months in advance"
+    ],
+    internationalTipsCn: [
+      "需要学生签证",
+      "需要英语考试（雅思5.0+）",
+      "提供有限的英语辅导",
+      "至少提前6个月申请"
     ]
   }
 ];

@@ -30,6 +30,9 @@ export const en = {
   perYear: "per year",
   admissionRules: "Admission Rules",
   tips: "Tips",
+  internationalStudents: "International Students",
+  internationalFees: "International Student Fees",
+  domesticFees: "Domestic Fees",
   schoolTypes: {
     Primary: "Primary",
     Secondary: "Secondary",
@@ -70,6 +73,9 @@ export const zh = {
   perYear: "每年",
   admissionRules: "入学规则",
   tips: "温馨提示",
+  internationalStudents: "国际学生",
+  internationalFees: "国际生学费",
+  domesticFees: "本地生学费",
   schoolTypes: {
     Primary: "小学",
     Secondary: "中学",

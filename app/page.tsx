@@ -11,6 +11,7 @@ export default function Home() {
   const [sortBy, setSortBy] = useState<'rating' | 'name' | 'academic'>('rating')
   const [locale, setLocale] = useState<Locale>('en')
   const [expandedSchools, setExpandedSchools] = useState<Set<number>>(new Set())
+  const [showInternationalFees, setShowInternationalFees] = useState(false)
 
   const t = translations[locale]
 
@@ -244,12 +245,38 @@ export default function Home() {
                   </p>
 
                   {/* Tuition Fees */}
-                  <div className="mb-4 p-3 bg-blue-50 rounded-lg">
-                    <div className="flex items-center justify-between">
-                      <span className="text-sm font-semibold text-blue-900">💰 {t.tuitionFees}:</span>
-                      <span className="text-sm font-bold text-blue-900">
-                        {locale === 'zh' ? school.tuitionFeeCn : school.tuitionFee}
-                      </span>
+                  <div className="mb-4 p-4 bg-gradient-to-r from-blue-50 to-purple-50 rounded-xl border border-blue-100">
+                    <div className="flex items-center justify-between mb-2">
+                      <span className="text-sm font-bold text-blue-900">💰 {t.tuitionFees}</span>
+                      {school.internationalFee && (
+                        <button
+                          onClick={() => setShowInternationalFees(!showInternationalFees)}
+                          className="text-xs px-3 py-1 bg-white rounded-full border border-blue-200 hover:bg-blue-50 transition-all"
+                        >
+                          {showInternationalFees ? (locale === 'zh' ? '本地生' : 'Domestic') : (locale === 'zh' ? '国际生' : 'International')}
+                        </button>
+                      )}
+                    </div>
+                    <div className="text-sm font-bold text-blue-900">
+                      {showInternationalFees && school.internationalFee ? (
+                        <>
+                          <div className="flex items-center gap-2 mb-1">
+                            <span className="text-purple-600">🌏 {t.internationalFees}:</span>
+                          </div>
+                          <div className="text-purple-900">
+                            {locale === 'zh' ? school.internationalFeeCn : school.internationalFee}
+                          </div>
+                        </>
+                      ) : (
+                        <>
+                          <div className="flex items-center gap-2 mb-1">
+                            <span className="text-blue-600">🏠 {t.domesticFees}:</span>
+                          </div>
+                          <div className="text-blue-900">
+                            {locale === 'zh' ? school.tuitionFeeCn : school.tuitionFee}
+                          </div>
+                        </>
+                      )}
                     </div>
                   </div>
 
@@ -350,6 +377,20 @@ export default function Home() {
                           ))}
                         </ul>
                       </div>
+
+                      {/* International Student Tips */}
+                      {school.internationalTips && school.internationalTips.length > 0 && (
+                        <div className="mt-4 p-3 bg-purple-50 rounded-lg border border-purple-200">
+                          <h3 className="font-bold text-purple-900 mb-2 flex items-center">
+                            🌏 {t.internationalStudents}
+                          </h3>
+                          <ul className="list-disc list-inside space-y-1">
+                            {(locale === 'zh' ? school.internationalTipsCn : school.internationalTips).map((tip, idx) => (
+                              <li key={idx} className="text-sm text-purple-800">{tip}</li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
                     </div>
                   )}
 
